@@ -36,6 +36,10 @@ function mixcoatl_content_group_openlayers_maps() {
     'behaviors' => array(
       'openlayers_behavior_geofield' => array(),
       'openlayers_behavior_panzoombar' => array(),
+      'openlayers_behavior_zoomtolayer' => array(
+        'zoomtolayer' => 'geofield_formatter',
+        'point_zoom_level' => '12',
+      ),
     ),
     'default_layer' => 'osm_mapnik',
     'layers' => array(
