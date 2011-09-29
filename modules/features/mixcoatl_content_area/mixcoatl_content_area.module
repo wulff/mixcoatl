@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mixcoatl Area feature.
+ */
+
+include_once('mixcoatl_content_area.features.inc');
