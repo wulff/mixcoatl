@@ -1,0 +1,59 @@
+name = Mixcoatl
+description = Default installation profile for Mixcoatl.
+core = 7.x
+theme = bartik
+
+; core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = shortcut
+dependencies[] = taxonomy
+
+; contrib
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = ctools
+dependencies[] = page_manager
+dependencies[] = views_content
+dependencies[] = date_api
+dependencies[] = date
+dependencies[] = date_popup
+dependencies[] = devel
+dependencies[] = features
+dependencies[] = addressfield
+dependencies[] = field_group
+dependencies[] = references
+dependencies[] = node_reference
+dependencies[] = references_dialog
+dependencies[] = openlayers
+dependencies[] = openlayers_ui
+dependencies[] = openlayers_views
+dependencies[] = og
+dependencies[] = og_access
+dependencies[] = og_context
+dependencies[] = og_ui
+dependencies[] = advanced_help
+dependencies[] = geofield
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = panels
+dependencies[] = views_ui
+
+; mixcoatl
+;dependencies[] = ns_core

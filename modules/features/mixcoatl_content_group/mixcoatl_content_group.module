@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mixcoatl Group feature.
+ */
+
+include_once('mixcoatl_content_group.features.inc');
