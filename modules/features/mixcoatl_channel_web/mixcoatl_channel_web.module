@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mixcoatl Web feature.
+ */
+
+include_once('mixcoatl_channel_web.features.inc');

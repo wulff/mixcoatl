@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mixcoatl Stand feature.
+ */
+
+include_once('mixcoatl_content_stand.features.inc');

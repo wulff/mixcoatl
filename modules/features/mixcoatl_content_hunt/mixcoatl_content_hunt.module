@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mixcoatl Hunt feature.
+ */
+
+include_once('mixcoatl_content_hunt.features.inc');
