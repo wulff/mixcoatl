@@ -28,8 +28,14 @@ projects[date][version] = 2.0-alpha4
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
 
+projects[diff][subdir] = contrib
+projects[diff][version] = 2.0
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-beta10
+
+projects[eva][subdir] = contrib
+projects[eva][version] = 1.1
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0-beta4
@@ -63,7 +69,7 @@ projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.0-rc2
 
 projects[references][subdir] = contrib
-projects[references][version] = 2.0-beta3
+projects[references][version] = 2.x-dev
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.0-alpha1
@@ -72,7 +78,7 @@ projects[references_dialog][version] = 1.0-alpha1
 ;projects[rules][version] = 2.0-rc2
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta2
+projects[strongarm][version] = 2.0-beta3
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-beta5

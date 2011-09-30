@@ -54,6 +54,7 @@ dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = panels
 dependencies[] = views_ui
+dependencies[] = eva
 
 ; mixcoatl
 ;dependencies[] = ns_core
