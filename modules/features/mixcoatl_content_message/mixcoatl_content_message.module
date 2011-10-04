@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mixcoatl Message feature.
+ */
+
+include_once('mixcoatl_content_message.features.inc');
