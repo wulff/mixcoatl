@@ -51,6 +51,13 @@ function mixcoatl_content_group_field_default_fields() {
           'type' => 'text_default',
           'weight' => '1',
         ),
+        'full' => array(
+          'label' => 'hidden',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '1',
+        ),
         'teaser' => array(
           'label' => 'hidden',
           'module' => 'text',
@@ -77,6 +84,82 @@ function mixcoatl_content_group_field_default_fields() {
           'summary_rows' => 5,
         ),
         'type' => 'text_textarea_with_summary',
+        'weight' => '2',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-mixcoatl_group-field_mixcoatl_group_address'
+  $fields['node-mixcoatl_group-field_mixcoatl_group_address'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_mixcoatl_group_address',
+      'foreign keys' => array(),
+      'indexes' => array(),
+      'module' => 'addressfield',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'addressfield',
+    ),
+    'field_instance' => array(
+      'bundle' => 'mixcoatl_group',
+      'default_value' => array(
+        0 => array(
+          'element_key' => 'node|mixcoatl_group|field_mixcoatl_group_address|und|0',
+          'thoroughfare' => '',
+          'premise' => '',
+          'postal_code' => '',
+          'locality' => '',
+          'country' => 'DK',
+        ),
+      ),
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '3',
+        ),
+        'full' => array(
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '3',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_mixcoatl_group_address',
+      'label' => 'Address',
+      'required' => 0,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'addressfield',
+        'settings' => array(
+          'available_countries' => array(
+            'DK' => 'DK',
+          ),
+          'format_handlers' => array(
+            'address' => 'address',
+            'name-full' => 0,
+            'name-oneline' => 0,
+            'organisation' => 0,
+          ),
+        ),
+        'type' => 'addressfield_standard',
         'weight' => '1',
       ),
     ),
@@ -104,6 +187,16 @@ function mixcoatl_content_group_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
+          'label' => 'hidden',
+          'module' => 'geofield',
+          'settings' => array(
+            'data' => 'full',
+            'map_preset' => 'mixcoatl_group',
+          ),
+          'type' => 'geofield_openlayers',
+          'weight' => '0',
+        ),
+        'full' => array(
           'label' => 'hidden',
           'module' => 'geofield',
           'settings' => array(
@@ -186,6 +279,12 @@ function mixcoatl_content_group_field_default_fields() {
           'type' => 'hidden',
           'weight' => '2',
         ),
+        'full' => array(
+          'label' => 'hidden',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '2',
+        ),
         'teaser' => array(
           'label' => 'above',
           'settings' => array(),
@@ -224,6 +323,7 @@ function mixcoatl_content_group_field_default_fields() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Address');
   t('Body');
   t('Group type');
   t('Map');
