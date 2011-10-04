@@ -24,6 +24,7 @@ dependencies[] = shortcut
 dependencies[] = taxonomy
 
 ; contrib
+dependencies[] = addressfield
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = ctools
