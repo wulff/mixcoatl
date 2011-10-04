@@ -23,6 +23,16 @@ function mixcoatl_content_group_ctools_plugin_api() {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function mixcoatl_content_group_views_api() {
+  list($module, $api) = func_get_args();
+  if ($module == "views" && $api == "views_default") {
+    return array("version" => "3.0");
+  }
+}
+
+/**
  * Implements hook_node_info().
  */
 function mixcoatl_content_group_node_info() {
