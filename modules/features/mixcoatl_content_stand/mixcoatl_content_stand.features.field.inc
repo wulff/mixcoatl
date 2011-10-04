@@ -10,87 +10,6 @@
 function mixcoatl_content_stand_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'node-mixcoatl_area-field_mixcoatl_area_stand_ref'
-  $fields['node-mixcoatl_area-field_mixcoatl_area_stand_ref'] = array(
-    'field_config' => array(
-      'active' => '1',
-      'cardinality' => '-1',
-      'deleted' => '0',
-      'entity_types' => array(),
-      'field_name' => 'field_mixcoatl_area_stand_ref',
-      'foreign keys' => array(
-        'nid' => array(
-          'columns' => array(
-            'nid' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
-      'indexes' => array(
-        'nid' => array(
-          0 => 'nid',
-        ),
-      ),
-      'module' => 'node_reference',
-      'settings' => array(
-        'referenceable_types' => array(
-          'mixcoatl_area' => 0,
-          'mixcoatl_group' => 0,
-          'mixcoatl_stand' => 'mixcoatl_stand',
-        ),
-        'view' => array(
-          'args' => array(),
-          'display_name' => '',
-          'view_name' => '',
-        ),
-      ),
-      'translatable' => '0',
-      'type' => 'node_reference',
-    ),
-    'field_instance' => array(
-      'bundle' => 'mixcoatl_area',
-      'default_value' => NULL,
-      'deleted' => '0',
-      'description' => '',
-      'display' => array(
-        'default' => array(
-          'label' => 'hidden',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => '3',
-        ),
-        'teaser' => array(
-          'label' => 'above',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => 0,
-        ),
-      ),
-      'entity_type' => 'node',
-      'field_name' => 'field_mixcoatl_area_stand_ref',
-      'label' => 'Stands',
-      'required' => 0,
-      'settings' => array(
-        'user_register_form' => FALSE,
-      ),
-      'widget' => array(
-        'active' => 1,
-        'module' => 'node_reference',
-        'settings' => array(
-          'autocomplete_match' => 'contains',
-          'autocomplete_path' => 'node_reference/autocomplete',
-          'references_dialog_add' => 1,
-          'references_dialog_edit' => 1,
-          'references_dialog_search' => 1,
-          'references_dialog_search_view' => '',
-          'size' => '60',
-        ),
-        'type' => 'node_reference_autocomplete',
-        'weight' => '6',
-      ),
-    ),
-  );
-
   // Exported field: 'node-mixcoatl_stand-body'
   $fields['node-mixcoatl_stand-body'] = array(
     'field_config' => array(
@@ -307,7 +226,6 @@ function mixcoatl_content_stand_field_default_fields() {
   t('Body');
   t('Groups audience');
   t('Map');
-  t('Stands');
 
   return $fields;
 }

@@ -12,33 +12,6 @@ function mixcoatl_content_stand_field_group_info() {
 
   $field_group = new stdClass;
   $field_group->api_version = 1;
-  $field_group->identifier = 'group_mixcoatl_area_stands|node|mixcoatl_area|form';
-  $field_group->group_name = 'group_mixcoatl_area_stands';
-  $field_group->entity_type = 'node';
-  $field_group->bundle = 'mixcoatl_area';
-  $field_group->mode = 'form';
-  $field_group->parent_name = '';
-  $field_group->data = array(
-    'label' => 'Stands',
-    'weight' => '3',
-    'children' => array(
-      0 => 'field_mixcoatl_area_stand_ref',
-    ),
-    'format_type' => 'tab',
-    'format_settings' => array(
-      'label' => 'Stands',
-      'instance_settings' => array(
-        'required_fields' => 0,
-        'classes' => '',
-        'description' => '',
-      ),
-      'formatter' => 'closed',
-    ),
-  );
-  $export['group_mixcoatl_area_stands|node|mixcoatl_area|form'] = $field_group;
-
-  $field_group = new stdClass;
-  $field_group->api_version = 1;
   $field_group->identifier = 'group_mixcoatl_stand_group|node|mixcoatl_stand|form';
   $field_group->group_name = 'group_mixcoatl_stand_group';
   $field_group->entity_type = 'node';

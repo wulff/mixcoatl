@@ -69,11 +69,46 @@ function mixcoatl_content_stand_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'menu_options_mixcoatl_stand';
+  $strongarm->value = array();
+  $export['menu_options_mixcoatl_stand'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'menu_parent_mixcoatl_stand';
+  $strongarm->value = 'main-menu:0';
+  $export['menu_parent_mixcoatl_stand'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_options_mixcoatl_stand';
   $strongarm->value = array(
     0 => 'status',
   );
   $export['node_options_mixcoatl_stand'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_preview_mixcoatl_stand';
+  $strongarm->value = '1';
+  $export['node_preview_mixcoatl_stand'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_submitted_mixcoatl_stand';
+  $strongarm->value = 0;
+  $export['node_submitted_mixcoatl_stand'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'og_group_type_mixcoatl_stand';
+  $strongarm->value = 'omitted';
+  $export['og_group_type_mixcoatl_stand'] = $strongarm;
 
   return $export;
 }
